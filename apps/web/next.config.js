@@ -30,4 +30,7 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   transpilePackages: ['types', 'schemas', 'app-constants'],
+  server: {
+    host: '0.0.0.0',
+  },
 };

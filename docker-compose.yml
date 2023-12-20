@@ -43,7 +43,7 @@ services:
       - ./bin/setup.sh:/setup.sh
       - ./bin:/scripts
     environment:
-      - HOST=0.0.0.0
+      - HOST=mongo
       - PORT=27017
       - USERNAME=root
       - PASSWORD=root
